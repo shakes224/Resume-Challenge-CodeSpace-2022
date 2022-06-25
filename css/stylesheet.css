@@ -24,7 +24,10 @@ h1 {
 }
 
 h2 {
-  color: black;
+  font-size: 40px;
+  background-color: #ccc;
+  margin: 20px;
+  padding: 40px;
 }
 
 body {
