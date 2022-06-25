@@ -1,11 +1,21 @@
 body{
   font-family: sans-serif;
   font-size:110%;
-  background-color: #FCF7F8;
+  background-color: white;
+}
+
+#sidebar {
+  width: 20%;
+  background-color:rgb(215, 228, 250);
+}
+
+.navMenu{
+  list-style-type: none;
 }
 
 #header {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 110%;
 }
 
 h1 {
@@ -19,7 +29,7 @@ h2 {
 
 body {
   font-size: 14px;
-  color: purple;
+  color: black;
 }
 
 header {
