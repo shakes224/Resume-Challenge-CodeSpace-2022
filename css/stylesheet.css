@@ -4,13 +4,24 @@ body{
   background-color: white;
 }
 
+#myProfilePhoto {
+
+  width: 20%;
+  height: 20%;
+  border-radius: 40%;
+  border: 5px solid navy;
+}
+
 #sidebar {
   width: 20%;
-  background-color:rgb(215, 228, 250);
+  background-color:rgb(250, 215, 222);
+  padding: 1rem;
+  color: black;
 }
 
 .navMenu{
   list-style-type: none;
+  padding: 0%;
 }
 
 #header {
@@ -21,6 +32,12 @@ body{
 h1 {
   color: #ffc;
   background-color: #009;
+}
+
+.icon {
+  width: 3rem;
+  margin: 0.5 rem;
+  height: auto;
 }
 
 h2 {
