@@ -24,11 +24,11 @@ h1 {
 }
 
 h2 {
-  border-style: dashed;
+  border-style: solid;
   border-width: 3px;
   border-left-width: 10px;
   border-right-width: 10px;
-  border-color: red;
+  border-color: navy;
   border-radius: 10px 20px 30px 40px;    
 }
 
