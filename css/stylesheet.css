@@ -4,23 +4,27 @@ body{
   background-color: #FCF7F8;
 }
 
+#header {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 h1 {
   color: #ffc;
   background-color: #009;
 }
 
 h2 {
-  color: green;
+  color: black;
 }
 
 body {
   font-size: 14px;
-  color: navy;
+  color: purple;
 }
 
 header {
   text-align: center;
-  background-color: aqua;
+  background-color: silver;
 }
 
 footer {
