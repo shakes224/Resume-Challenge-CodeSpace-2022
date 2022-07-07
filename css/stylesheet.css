@@ -36,13 +36,6 @@ body{
   border: 5px solid navy;
 }
 
-#sidebar {
-  width: 20%;
-  background-color:rgb(55, 57, 61);
-  padding: 4rem;
-  color: black;
-}
-
 .navMenu{
   list-style-type: none;
   padding: 20%;
@@ -63,7 +56,7 @@ h2 {
   border-width: 2px;
   border-left-width: 10px;
   border-right-width: 10px;
-  border-color: navy; 
+  border-color: pink; 
 }
 
 h3 {
