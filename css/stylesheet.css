@@ -34,7 +34,6 @@ header {
 
 .main{
   display: flex;
-  flex-direction: column;
   overflow: unset;
 }
 
@@ -72,6 +71,4 @@ footer {
 a:link{
   color: inherit;
 }
-footer {
-  text-align: center;
-}
+
