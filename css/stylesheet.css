@@ -34,19 +34,16 @@ header {
 
 .main{
   display: flex;
-  overflow: unset;
+  flex-direction: row-reverse;
+  
 }
 
 #sidebar {
   width: 20%;
   padding: 1rem;
+  display: flex;
+  flex-direction: end;
   background-color: #45462A;
-}
-
-.nav-menu {
-  list-style-type: none;
-  padding: 0;
-  color: #fff;
 }
 
 footer {
