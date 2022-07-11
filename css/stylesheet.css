@@ -28,7 +28,7 @@ header {
 #myProfilePhoto {
   width: 20%;
   height: 20%;
-  border-radius: 25%;
+  border-radius: 60%;
   border: 5px solid black;
 }
 
@@ -36,6 +36,7 @@ header {
   display: flex;
   flex-direction: row;
   overflow: unset;
+  gap: 1;
   
 }
 
