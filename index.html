@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 
-<html lang="en" class="full-width">
-
 <head>
+  <html lang="en" class="full-width"></html>
+  <!--meta tags-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
   <title>Keketso's Resume</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,11 +14,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
   <script src="https://use.fontawesome.com/34ba238c04.js"></script>
-  <!--meta tags-->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
-</head>
 
+</head>
 
 
 <body class="full-width">
@@ -34,13 +33,16 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#about"> About</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#education">Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
+              <a class="nav-link" href="#skills"> Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skills"> Skills</a>
+              <a class="nav-link" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -49,20 +51,16 @@
         </div>
       </div>
     </nav>
-
-    <img src="./images/mshega.jpg" class="img-fluid rounded-circle p-5 w-75 float-sm-end mx-auto"
-            alt="Profile Picture">
-    
   </header>
 
   <div class="jumbotron jumbotron-fluid pt-5 mt-5" id="background">
     <div class="container">
-
-      <h1 class="display heading">Keketso Leu</h1>
-      <p class="lead">Web Developer</p>
+      <h1 class="display-4 heading p-4 pb-0">Keketso Leu</h1>
+      <p class="lead ps-4">Web Developer</p>
     </div>
   </div>
 
+  <!--About section-->
   <section id="about">
     <div class="bg-colour full-width">
       <div class="row">
@@ -70,7 +68,7 @@
           <img src="./images/Shakes.jpg" class="img-fluid rounded-circle p-5 w-75 float-sm-end mx-auto"
             alt="Profile Picture">
         </div>
-        <div class="col-sm-7 my-auto p-5">
+        <div class="col-sm-6 my-auto p-5">
           <p class="about"> Aspiring web developer with creative instincts.
             I have an analytical mind, I am a problem solver and
             I love when things not only function properly,
@@ -78,200 +76,269 @@
             My goal in life is to never stop learning and challenging myself.
           </p>
         </div>
+
+        <div class ="col-sm-1"></div>
+
       </div>
   </section>
 
-       <!--education-->
-       <section class="mx-auto" id="education">
-        <h2 class="text-center mt-5 mb-4">Education</h2>
-        <div class="row mb-4">
-          <div class="col-md-4">
-            <div class="card line card-colour" >
-              <i class="fa fa-university fa-2x text-center" aria-hidden="true"></i>
-  
-              <div class="card-body">
-                <p class="card-text">
-                <h5 class="text-muted text-center">2019-2021</h5><br>
-                <h4 class="text-center">Bachelor of Science in Computer Siences and Statistics, North West University.</h4>
-                I majored in Programming and Statistics, which included problem solving and complex Mathematics.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card line card-colour" >
-              <i class="fa fa-recycle fa-2x text-center" aria-hidden="true"></i>
-  
-              <div class="card-body dotted">
-                <p class="card-text">
-                <h5 class="text-center text-muted">2022 - present</h5><br>
-                <h4 class="text-center">CodeSpace Academy </h4>
-                Learned web Development with the use of HTML, CSS and JavaScript.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card line card-colour" >
-              <i class="fa fa-graduation-cap text-center fa-2x" aria-hidden="true"></i>
-  
-              <div class="card-body">
-                <p class="card-text">
-                <h5 class="text-center text-muted">2019 - present</h5><br>
-                <h4 class="text-center">Sololearn.</h4>
-                I have successfully completed the courses by demonstrating theoretical and practical understanding.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-  <div class="container">
-
-    <!-- Skills Sections  -->
-
-    <section class="bg-colour" id="skills">
-      <h2 class="text-center">Skills</h2>
+      <!--Container-->
+  <div class="full-width">
+    <!--Skills Section-->
+    <section id="skills-section">
+      <h2 class="text-center pt-4">Skills</h2>
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" 
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
-            aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
-            aria-label="Slide 5"></button>
-          
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
         </div>
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active my-4" data-bs-interval="10000">
-        <img src="images/HTML_CSSLogo.png" class="d-block mx-auto py-4" alt="HTML & CSS Logo">
-        <div class="carousel-caption d-none d-md-block">
-
+  
+        <div class="carousel-inner">
+          <div class="carousel-item active my-4" data-bs-interval="10000">
+            <img src="images/HTML_CSSLogo.png" class="d-block mx-auto py-4" alt="HTML Logo">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+  
+          <div class="carousel-item my-4" data-bs-interval="2000">
+            <img src="slider images/cppLogo.png" class="d-block mx-auto py-4" alt="Cpp Logo">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+           </div>
+  
+          <div class="carousel-item my-4" data-bs-interval="2000">
+            <img src="images/articulate-storyline.jpg" class="d-block mx-auto py-4" alt="Articulate Storyline Logo">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+  
+          <div class="carousel-item my-4" data-bs-interval="2000">
+            <img src="images/indesign-icon.png" class="d-block mx-auto py-4" alt="InDesin Logo.">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+  
+          <div class="carousel-item my-4" data-bs-interval="2000">
+            <img src="images/photoshop-logo.png" style="width: 128px;" class="d-block mx-auto py-4" alt="Photoshop Logo">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+  
+          <div class="carousel-item my-4" data-bs-interval="2000">
+            <img src="images/premiere-pro.png" class="d-block mx-auto py-4" alt="Premiere Pro Logo">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+  
+          <div class="carousel-item my-4" data-bs-interval="2000">
+            <img src="images/moodle-logo.png" class="d-block mx-auto py-4" alt="Moodle Logo">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+  
         </div>
+  
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-item my-4" data-bs-interval="2000">
-        <img src="images/githubLogo.png" class="d-block mx-auto py-4" alt="github Logo">
-        <div class="carousel-caption d-none d-md-block">
-
-        </div>
-      </div>
-      <div class="carousel-item my-4" data-bs-interval="2000">
-        <img src="images/cppLogo.png" class="d-block mx-auto py-4" alt="C++">
-        <div class="carousel-caption d-none d-md-block">
-        </div>
-      </div>
-      <div class="carousel-item my-4" data-bs-interval="2000">
-        <img src="images/pythonLogo.png" class="d-block mx-auto py-4" alt="Python Logo.">
-        <div class="carousel-caption d-none d-md-block">
-        </div>
-      </div>
-      <div class="carousel-item my-4" data-bs-interval="2000">
-        <img src="images/JavaProgrammingLogo.png" style="width: 128px;" class="d-block mx-auto py-4"
-          alt="Java Logo">
-        <div class="carousel-caption d-none d-md-block">
-        </div>
-      </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</section>
     </section>
-
+  
     <!--Work Experience-->
-    <section id="experience">
-      <h2 class="text-center mt-5 mb-4">Work Experience</h2>
-      <div class="row mx-5">
+    <section id="work-experience" class="bg-colour">
+      <h2 class="text-center pt-5 mb-4">Work Experience</h2>
+      <div class="row mx-5 pb-5">
         <div class="col-sm-6">
-          <p class="text-muted m-0">2021-current</p>
-          <h5>Online feenix Student Ambassador</h5>
-          <p>Helping students create their online profiles and fundraise for their studies in order to graduate debt free.</p>
-          <p class="text-muted m-0">2018-2020</p>
+          <p class="m-0">2020-current</p>
+          <h5>e-Learning Content Developer</h5>
+          <p>Building online courses in Moodle, creating learning interactions (Articulate Storyline 3 & H5P), writing
+            factsheets
+            as well as laying out course content in InDesign.</p>
+          <p class="m-0">2018-2020</p>
           <h5>Freelance</h5>
-          <p>I freelanced as a card writer .</p>
-
-          <p class="text-muted m-0">2016-2018</p>
-          <h5>Mathematics and Physical tutor</h5>
-          Helping grade 11 and grade 12 learners on Mathematics and Physical Sciences. 
+          <p>I freelanced as a features writer at What's on in Cape Town, a production manager for stock photographer
+            Trevor Adeline
+            and continued running my own business as a freelance photographer and videographer.</p>
+  
+          <p class="m-0">2017</p>
+          <h5>Freelance Photographer and Videographer</h5>
+          Working for various clients as an events photographer and videographer. Samples: <a class="link-colour" href="https://christinehogg.co.za/" target="_blank">www.christinehogg.co.za</a>
         </div>
         <div class="col-sm-6">
-          <p class="text-muted m-0">2015-2016</p>
-          <h5>Recycling</h5>
-          <p>Picking up plastics, papers, steel metal and all recyclable material for cash.</p>
-
-          <p class="text-muted m-0">2014-2015</p>
-          <h5>Member of the CPF</h5>
-          <p>I have as a member of the Community Policing Forum to combat the ever increasing crime rate in my community.</p>
-
-          <p class="text-muted m-0">2014</p>
-          <h5>Car wash</h5>
-          <p>I created my own car wash to earn some cash as I could not fing employment due to lack of work-experience.</p>
+          <p class="m-0">2015-2016</p>
+          <h5>Script Editor at VoiceMap</h5>
+          <p>Editing audio scripts for GPS-triggered tours and sourcing contributors</p>
+          <p class="m-0">2013-2014</p>
+          <h5>Features Writer at One Small Seed Magazine</h5>
+          <p>Writing articles, content sourcing and management, as well as editing digital publications.</p>
+  
+          <p class="m-0">2012</p>
+          <h5>Internship at One Small Seed and What's on in Cape Town</h5>
+          <p>Writing reviews and articles, creating events listings in Wordpress and sourcing online content.</p>
         </div>
       </div>
     </section>
-
-      <!--contact me form-->
-  <section id="contact">
-    <h2 class="mt-5 mb-4 text-center">Contact </h2>
-
-    <section class="form-section">
-      <div class="w-50 mx-auto">
-
-        <form action="post">
-          <div class="form-group row">
-            <div class="col-md-6 p-2">
-              <input type="text" class="form-control" placeholder="Full name">
-            </div>
-
-            <div class="col-md-6 p-2">
-              <input type="email" class="form-control" placeholder="Email Address">
-            </div>
-
-          </div>
-
-
-          <div class="form-group row">
-            <div class="col-md-12 p-2">
-              <input type="text" class="form-control" placeholder="Subject">
+  
+    <!--Education-->
+    <section class="mx-auto" id="education-section">
+      <h2 class="text-center pt-5 mb-4">Education</h2>
+      <div class="row p-5 pt-2 mx-3">      
+        <div class="col-md-4">
+  
+          <div class="card p-4 m-1 line">
+            <i class="fa fa-university fa-2x text-center" aria-hidden="true"></i>
+            <div class="card-body">
+              
+              <h5 class="text-muted text-center mb-0 mt-3">2009-2011</h5><br>
+              <h4 class="text-center">Bachelor of Arts in Film and Media Production, University of Cape Town</h4>
+              <p class="card-text text-center">
+              I majored in Film Studies and Print Journalism, which included writing news and feature
+              articles, as well as editing copy in InDesign and creating magazine layouts.
+              </p>
             </div>
           </div>
-
-          <div class="form-group row">
-            <div class="col-md-12 p-2">
-              <textarea class="form-control" rows="3" placeholder="Type your message here"></textarea>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="card p-4 m-1 line">
+            <i class="fa fa-camera-retro fa-2x text-center" aria-hidden="true"></i>
+            <div class="card-body dotted">
+     
+              <h5 class="text-center text-muted mb-0 mt-3">2010</h5><br>
+              <h4 class="text-center">Photography Course, Africa Photo Academy</h4>
+              <p class="card-text text-center">
+              Course objectives included the principles of photography and how to shoot with a DSLR camera in full manual mode.</p>
             </div>
           </div>
-
-
-          <div class="form-group row">
-            <div class="col-md-12 text-center p-2">
-              <button type="submit" class="btn btn-primary button-colour">Send Message</button>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="card p-4 m-1 line">
+            <i class="fa fa-video-camera text-center fa-2x" aria-hidden="true"></i>
+            <div class="card-body">
+              
+              <h5 class="text-center text-muted mb-0 mt-3">2017</h5><br>
+              <h4 class="text-center">Videography Course, Cape Town School of Photography</h4>
+              <p class="card-text text-center">
+              Learning outcomes consisted of shooting video manually on a DSLR and completing a film project, from writing a treatment to
+              editing in PremierePro. </p>
             </div>
           </div>
-
+        </div>
+  
       </div>
-
-      </form>
     </section>
+  
+  <!--Samples of Work-->
+  <section id="samples-section">
+  <div class="row p-5 purple">
+  
+    <h2 class="text-center pt-5 mb-4" style="color: white">Samples of Work</h2>
+    <div class="col-md-12">
+      <h5 class="text-center pt-4" style="color:white">Video</h5>
+      <div class=" text-center embed-responsive embed-responsive-16by9"> 
+    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/GDl6Q08RZM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+  </div>
+  <div class="col-md-12">
+  <h5 class="text-center pt-5" style="color: white">Photography</h5>
+    <div id="carouselExampleIndicators" class="carousel slide w-75 mx-auto p-5 pt-2 sm-p-2 slider-mobile" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="slider images/mary.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="slider images/vika.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="slider images/tracy.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="slider images/rachael-thembi.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  
+  </div>
   </section>
-
-    </div>
-
-      </article>
-    </div>
-  </main>
+  
+    <!--contact me-->
+      <section class="form-section p-5" id="contact-section">
+        <h2 class="mt-5 mb-4 text-center">Contact Me</h2>
+        <div class="w-50 mx-auto">
+  
+          <form action="post">
+  
+            <div class="form-group row">
+  
+              <div class="col-md-6 p-2">
+                <input type="text" class="form-control" placeholder="Full name">
+              </div>
+  
+              <div class="col-md-6 p-2">
+                <input type="email" class="form-control" placeholder="Email Address">
+              </div>
+  
+            </div>
+  
+            <div class="form-group row">
+  
+              <div class="col-md-12 p-2">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+  
+            </div>
+  
+            <div class="form-group row">
+  
+              <div class="col-md-12 p-2">
+                <textarea class="form-control" rows="3" placeholder="Type your message here"></textarea>
+              </div>
+  
+            </div>
+  
+            <div class="form-group row">
+  
+              <div class="col-md-12 text-center p-2">
+                <button type="submit" class="btn btn-primary button-colour">Send Message</button>
+              </div>
+  
+            </div>
+  
+        </div>
+  
+        </form>
+      </section>
+  
+  </div>
 
   <!--footer section-->
   <footer>
