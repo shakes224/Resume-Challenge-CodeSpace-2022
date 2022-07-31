@@ -43,7 +43,7 @@ footer {
 }
 
 #background {
-  background-image: url("images/christine-website.jpg"); 
+  background-image: url("../images/shakes.jpg"); 
   background-color: #4a2545;
   background-size: cover;
   background-repeat: no-repeat;
@@ -80,9 +80,6 @@ footer {
    width: 100%;
 }
 
-/* .collapse-black {
-  color: #000 !important;
-} */
 
 @keyframes LogoAnimation {
  0% {transform: translateY(0);}
@@ -101,7 +98,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   #background {
-      background-image: url("images/christine-website-mobile.jpg");
+      background-image: url("../images/shakes.jpg");
       background-color: #4a2545;
       background-size: cover;
       background-repeat: no-repeat;
@@ -112,7 +109,7 @@ footer {
 
 @media screen and (max-width: 550px) {
   #background {
-  background-image: url("images/christine-website-mobile.jpg"); 
+  background-image: url("../images/shakes.jpg"); 
   background-color: #4a2545;
   background-size: cover;
   background-repeat: no-repeat;
