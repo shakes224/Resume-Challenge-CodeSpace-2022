@@ -1,7 +1,8 @@
 body {
   background-color: white;
   color: black;
-  font-family: Roboto, sans-serif, Ariel;  
+  font-family: Roboto, sans-serif, Ariel; 
+  background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)); 
   scroll-behavior: smooth;   
   width: 100%;
   margin: 0;    
@@ -67,6 +68,7 @@ footer {
       left: 50%;
       transform: translatex(-50%);
   }
+
 .bg-colour {
    background-color: #dccca3;
 } 
@@ -97,8 +99,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  #background {
-      background-image: url("../images/shakes.jpg");
+  #background { 
       background-color: #4a2545;
       background-size: cover;
       background-repeat: no-repeat;
@@ -109,7 +110,7 @@ footer {
 
 @media screen and (max-width: 550px) {
   #background {
-  background-image: url("../images/shakes.jpg"); 
+  background-image: url("../videos/Ocean.mp4");  
   background-color: #4a2545;
   background-size: cover;
   background-repeat: no-repeat;
@@ -141,7 +142,3 @@ footer {
       width: 100% !important;
   }
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Term
