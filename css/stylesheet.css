@@ -44,7 +44,7 @@ footer {
 }
 
 #background {
-  background-image: url("images/shakes.jpg"); 
+  background-image: url("../images/shakes.jpg"); 
   background-color: #4a2545;
   background-size: cover;
   background-repeat: no-repeat;
