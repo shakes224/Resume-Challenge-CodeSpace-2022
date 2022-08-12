@@ -44,7 +44,7 @@ footer {
 }
 
 #background {
-  background-image: url("../images/shakes.jpg"); 
+  background-image: url("images/shakes.jpg"); 
   background-color: #4a2545;
   background-size: cover;
   background-repeat: no-repeat;
@@ -110,7 +110,7 @@ footer {
 
 @media screen and (max-width: 550px) {
   #background {
-  background-image: url("../videos/Ocean.mp4");  
+  background-image: url("images/shakes.jpg");  
   background-color: #4a2545;
   background-size: cover;
   background-repeat: no-repeat;
